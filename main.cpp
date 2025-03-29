@@ -2,17 +2,19 @@
 
 int main(){
     
-    // Declaracao
-    int x;
-
-    x = 4;
+    // Interger
+    int x = 4;
     int y = 6;
-
     int sum = x + y;
 
-    std::cout << x << '\n';
-    std::cout << y << '\n';
-    std::cout << sum;
+    // Double
+    double hours = 7.5;
+
+    // Single character
+    char twitter_logo = '@';
+    std::cout << twitter_logo;
+
+    
 
     return 0;
 }
