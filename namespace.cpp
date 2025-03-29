@@ -11,8 +11,13 @@ namespace SegundoNamespace
 }
 
 int main(){
-    using namespace SegundoNamespace;
-    std::cout << PrimeiroNamespace::x << std::endl;
-    std::cout << x << std::endl;
+    using std::cout;
+    using std::string;
+    using std::endl;
+
+    string s = "Hello World";
+
+    cout << PrimeiroNamespace::x << endl;
+    cout << s << endl;
     return 0;
 }
