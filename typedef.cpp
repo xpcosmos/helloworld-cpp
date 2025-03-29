@@ -1,8 +1,12 @@
 #include <iostream>
 #include <vector>
 
-typedef std::string text_t;
-typedef int number_t;
+// typedef std::string text_t;
+// typedef int number_t;
+
+// Prática recomendada!
+using text_t = std::string;
+using number_t = int;
 
 int main() {
     using std::cout;
