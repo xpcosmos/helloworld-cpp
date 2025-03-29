@@ -2,8 +2,10 @@
 
 int main(){
     
+    // Interger 16
+    int16_t x = 4;
+
     // Interger
-    int x = 4;
     int y = 6;
     int sum = x + y;
 
@@ -12,9 +14,17 @@ int main(){
 
     // Single character
     char twitter_logo = '@';
-    std::cout << twitter_logo;
-
     
+    // Boolean
+    bool is_light_on = true;
+
+    // string
+    std::string name = "Mikeias";
+    std::cout << "Hello " << name;
+
+    // constants
+    const double PI = 3.14159;
+    std::cout << PI;
 
     return 0;
 }
